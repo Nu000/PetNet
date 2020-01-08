@@ -1,0 +1,40 @@
+{
+  "name": "rn-material-kit-free",
+  "version": "1.4.0",
+  "description": "Material Kit React Native. Coded by Creative Tim",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "cross-env REACT_EDITOR=code expo start",
+    "android": "cross-env REACT_EDITOR=code expo start --android",
+    "ios": "cross-env REACT_EDITOR=code expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^36.0.2",
+    "expo-asset": "~8.0.0",
+    "expo-font": "~8.0.0",
+    "expo-linear-gradient": "~8.0.0",
+    "galio-framework": "^0.6.3",
+    "global": "^4.4.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.0.0",
+    "cross-env": "^5.2.0",
+    "expo-cli": "^3.11.3",
+    "jest-expo": "^36.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-kit-react-native/issues"
+  },
+  "homepage": "https://demos.creative-tim.com/material-kit-react-native/"
+}

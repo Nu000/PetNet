@@ -1,0 +1,74 @@
+Arguments: 
+  /home/nu/.nvm/versions/node/v13.5.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /home/nu/.nvm/versions/node/v13.5.0/bin:/home/nu/anaconda3/bin:/home/nu/bin:/home/nu/.local/bin:/home/nu/anaconda3/bin:/opt/gradle/gradle-5.2.1/bin:/home/nu/bin:/home/nu/.local/bin:/opt/gradle/gradle-5.2.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.5.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-36.0.2.tar.gz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/usr/local/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/usr/local/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:16)
+      at Request.emit (events.js:305:20)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/lib/node_modules/yarn/lib/cli.js:141441:10)
+      at ClientRequest.emit (events.js:305:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:601:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+      at TLSSocket.socketOnData (_http_client.js:470:22)
+      at TLSSocket.emit (events.js:305:20)
+
+npm manifest: 
+  {
+    "name": "rn-material-kit-free",
+    "version": "1.4.0",
+    "description": "Material Kit React Native. Coded by Creative Tim",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "cross-env REACT_EDITOR=code expo start",
+      "android": "cross-env REACT_EDITOR=code expo start --android",
+      "ios": "cross-env REACT_EDITOR=code expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^36.0.2",
+      "expo-asset": "~8.0.0",
+      "expo-font": "~8.0.0",
+      "expo-linear-gradient": "~8.0.0",
+      "galio-framework": "^0.6.3",
+      "react": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.2.tar.gz",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-modal-dropdown": "^0.6.2",
+      "react-navigation": "^3.11.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^8.0.0",
+      "cross-env": "^5.2.0",
+      "expo-cli": "^2.4.0",
+      "jest-expo": "^36.0.2"
+    },
+    "bugs": {
+      "url": "https://github.com/creativetimofficial/material-kit-react-native/issues"
+    },
+    "homepage": "https://demos.creative-tim.com/material-kit-react-native/"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
