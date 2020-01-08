@@ -14,6 +14,8 @@ import SettingsScreen from '../screens/Settings';
 import Menu from './Menu';
 import Header from '../components/Header';
 import { Drawer } from '../components/';
+import SignUp from "../screens/SignUp";
+import SignIn from "../screens/SignIn";
 
 const transitionConfig = (transitionProps, prevTransitionProps) => ({
   transitionSpec: {
@@ -188,18 +190,18 @@ const AppStack = createDrawerNavigator(
       },
     },
     SignIn: {
-      screen: ProScreen,
+      screen: SignIn,
       navigationOptions: (navOpt) => ({
         drawerLabel: ({focused}) => (
-          <Drawer focused={focused} screen="Pro" title="Sign In" />
+          <Drawer focused={focused} screen="Sign In" title="Sign In" />
         ),
       }),
     },
     SignUp: {
-      screen: ProScreen,
+      screen: SignUp,
       navigationOptions: (navOpt) => ({
         drawerLabel: ({focused}) => (
-          <Drawer focused={focused} screen="Pro" title="Sign Up" />
+          <Drawer focused={focused} screen="Sign Up" title="Sign Up" />
         ),
       }),
     },

@@ -1,4 +1,6 @@
 const Onboarding = 'https://images.unsplash.com/photo-1544943910-4c1dc44aab44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80';
+const SignUp = 'https://images.unsplash.com/photo-1575931642133-b0e7ebd0cb68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80';
+const SignIn = 'https://images.unsplash.com/photo-1568308389933-4d5b260272ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80';
 const Pro = 'https://images.unsplash.com/photo-1485796826113-174aa68fd81b?fit=crop&w=840&q=80';
 const Products = {
   'Accessories': 'https://source.unsplash.com//l1MCA0VyNrk/840x840',
@@ -23,4 +25,6 @@ export default {
   Profile,
   Viewed,
   Avatar,
+  SignUp,
+  SignIn
 }
